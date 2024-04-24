@@ -66,5 +66,4 @@ def solve_aqueduct_problem(input_filename, output_filename):
     path_length = min_cost_path(m, n, heights, source, baths)
     write_output(output_filename, path_length)
 
-# Call the function with the input file and output file.
 solve_aqueduct_problem("grid.txt", "pathLength.txt")
